@@ -9,6 +9,6 @@ public class Collision : MonoBehaviour
 
   void OnTriggerEnter2D(Collider2D collision)
   {
-        Debug.Log("shit was that a car that just passed by, jesus, if i see you im going to take you down");
+        Debug.Log("shit was that a car that just passed by, if i see you im going to take you");
   }
 }
