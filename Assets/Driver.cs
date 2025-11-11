@@ -3,7 +3,7 @@ using UnityEngine.InputSystem;
 
 public class Driver : MonoBehaviour
 {
-// velocidad de movimiento
+
     [SerializeField] float moveSpeed = .03f;  
     [SerializeField] float steerSpeed = .5f;
 
@@ -32,9 +32,9 @@ public class Driver : MonoBehaviour
             move = -1f;
         }
 
-        //  hw much are we moving 
+
         float moveAmount = move * moveSpeed * Time.deltaTime;
-        // how much are steering
+
         float steerAmount = steer * steerSpeed * Time.deltaTime;
 
         transform.Translate(0, moveAmount, 0);
