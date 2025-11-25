@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-// hello
+
 public class Driver : MonoBehaviour
 {
     [SerializeField] float moveSpeed = .03f;  
